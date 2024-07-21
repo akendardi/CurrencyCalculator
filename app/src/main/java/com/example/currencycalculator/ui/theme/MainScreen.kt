@@ -1,7 +1,6 @@
 package com.example.currencycalculator.ui.theme
 
 import android.util.Log
-import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -65,7 +64,7 @@ fun MainScreen(viewModel: MainViewModel) {
 fun AnswerText(state: AnswerState) {
     when (state) {
         is AnswerState.Answer -> {
-            Text(text = "Результат - ${state.price} ${state.title}")
+            Text(text = "Результат - ${state.price} ${state.title}", color = MaterialTheme.colorScheme.onBackground)
         }
 
         AnswerState.Initial -> {}

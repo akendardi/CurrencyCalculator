@@ -7,7 +7,6 @@ import android.util.Log
 import com.example.currencycalculator.domain.entity.CurrencyInfo
 import com.example.currencycalculator.domain.repository.Repository
 import com.example.currencycalculator.mapper.Mapper
-import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
